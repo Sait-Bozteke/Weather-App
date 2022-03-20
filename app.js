@@ -22,7 +22,7 @@ const displayResult=(result)=>{
     let desc=document.querySelector(".desc")
     desc.innerText=result.weather[0].description
     let minmax=document.querySelector(".minmax")
-    minmax.innerText=`${Math.round(result.main.temp_min)} c / ${Math.round(result.main.temp_min)}`
+    minmax.innerText=`${Math.round(result.main.temp_min)} C / ${Math.round(result.main.temp_min)} C`
 }
 
 const searchBar=document.getElementById("searchBar")
